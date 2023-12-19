@@ -1,0 +1,15 @@
+jQuery(function(){
+    $('#form_submit').click(() => {
+        $.ajax({
+            type: 'POST',
+            url: ajax_form_object.url,
+            data: {
+                action: 'ajax_form_action',
+				nonce: ajax_form_object.nonce
+            },
+            success: (res) => {
+                console.log(res);
+            }
+        });
+    });
+});

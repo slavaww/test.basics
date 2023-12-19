@@ -1,0 +1,14 @@
+/*
+Theme Name: Basic (Child of Understrap)
+Template: understrap
+Theme URI: https://understrap.com
+Description: Дочерняя тема для темы Understrap
+Author: WR
+Version: 1.0
+*/
+
+.wrimg__cover {
+	object-fit: cover;
+	width: 299px;
+	height: 167px;
+}
